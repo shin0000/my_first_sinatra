@@ -10,4 +10,4 @@ gem "sinatra-contrib"
 gem "activerecord"
 gem "sinatra-activerecord"
 gem "rake"
-gem "sqlite3"
+gem 'sqlite3'

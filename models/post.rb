@@ -1,3 +1,3 @@
-ActiveRecord::Base.establish_connection('sqlite3:///model.db')
+ActiveRecord::Base.establish_connection(ENV['DATABASE_URL']||"sqlite3:db/development.db")
 class Post < ActiveRecord::Base
 end
